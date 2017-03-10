@@ -2,6 +2,7 @@
 
 ##Built with
 * React Native
+* REST API service at 'https://glosbe.com/gapi/translate?from=eng&dest='
 
 ##Prerequisites(For macOS)
 * Node.js 4 or newer
