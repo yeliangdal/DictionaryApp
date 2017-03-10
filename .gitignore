@@ -1,0 +1,18 @@
+node_modules/*
+android/app/build/
+android/app/gradle/
+android/build/
+
+
+# Android
+.idea
+.gradle
+local.properties
+*.iml
+/android/
+
+
+# Node
+node_modules
+*.log
+.nvm

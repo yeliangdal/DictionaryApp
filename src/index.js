@@ -33,7 +33,7 @@ export default class DictionaryApp extends Component {
           Please select a language from the list:
         </Text>
         <View style ={styles.pickerView}>
-          //Android picker
+
           <Picker
             style={styles.picker}
             selectedValue={this.state.lang}
@@ -46,7 +46,7 @@ export default class DictionaryApp extends Component {
               label={'French'} value={'fra'}/>
           </Picker>
         </View>
-        //text input component
+
         <TextInput
           style={styles.textInput}
           onChangeText={(textString) => {this.changeText(textString)}}
@@ -54,7 +54,7 @@ export default class DictionaryApp extends Component {
           placeholderTextColor= '#99ccff'
           placeholder= 'Input English word here...'
         />
-        //submit button
+
         <TouchableOpacity
           onPress={this._onPressButton.bind(this)}>
             <View style={styles.buttonView}>
@@ -62,7 +62,7 @@ export default class DictionaryApp extends Component {
             </View>
         </TouchableOpacity>
 
-        //translation display
+
         <TranslationView
           translation = {this.state.translation}
           style = {styles.translationView}>
